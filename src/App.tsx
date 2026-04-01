@@ -1,17 +1,18 @@
-import { useEffect } from 'react';
+import { useEffect, lazy, Suspense } from 'react';
 import Lenis from '@studio-freight/lenis';
 import CustomCursor from './components/CustomCursor';
 import Header from './components/Header';
-
 import About from './components/About';
-import Research from './components/Research';
-import Teaching from './components/Teaching';
-import Seminars from './components/Seminars';
-import Mathwin from './components/Mathwin';
-import Contact from './components/Contact';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import './App.css';
+
+// Lazy load below-the-fold components
+const Research = lazy(() => import('./components/Research'));
+const Teaching = lazy(() => import('./components/Teaching'));
+const Seminars = lazy(() => import('./components/Seminars'));
+const Mathwin = lazy(() => import('./components/Mathwin'));
+const Contact = lazy(() => import('./components/Contact'));
 
 function App() {
   useEffect(() => {
@@ -39,12 +40,14 @@ function App() {
       <main className="bg-[#FFFBF1] text-[#1a1a1a] min-h-screen selection:bg-[#FFB2B2] selection:text-[#1a1a1a]">
 
         <About />
-        <Research />
-        <Teaching />
-        <Seminars />
-        <Mathwin />
+        <Suspense fallback={null}>
+          <Research />
+          <Teaching />
+          <Seminars />
+          <Mathwin />
+          <Contact />
+        </Suspense>
       </main>
-      <Contact />
       <Analytics />
       <SpeedInsights />
     </>
