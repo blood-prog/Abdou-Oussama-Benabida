@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://Abdou-Oussama-Benabida.vercel.app/sitemap.xml
+Sitemap: https://abdou-oussama-benabida.vercel.app/sitemap.xml
