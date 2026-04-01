@@ -70,6 +70,7 @@ export default function Contact() {
               <a href="https://drive.google.com/file/d/1s4wqN3L2oOZHYdf2f8dZL73ueFaId7M_/view" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFF2D0] transition-colors">Curriculum Vitae</a>
               <a href="https://mathwin.org/" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFF2D0] transition-colors">Mathwin Project</a>
               <a href="https://tassiliseminar.github.io/" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFF2D0] transition-colors">TSMS Seminar</a>
+              <a href="https://Abdou-Oussama-Benabida.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFF2D0] transition-colors">Abdou-Oussama-Benabida.vercel.app</a>
             </div>
             <p className="opacity-50 mt-4 normal-case">© {new Date().getFullYear()} Abdou Oussama Benabida.</p>
           </div>

@@ -26,4 +26,4 @@ Specializing in **Geometric Analysis** and **Calabi-Yau conifolds**. My research
 ## 📧 Contact
 - **Email**: [benabida.abdou_oussama@uqam.ca](mailto:benabida.abdou_oussama@uqam.ca)
 - **Secondary**: [benabida.oussama@gmail.com](mailto:benabida.oussama@gmail.com)
-- **Website**: [benabida.art](https://benabida.art)
+- **Website**: [Abdou-Oussama-Benabida.vercel.app](https://Abdou-Oussama-Benabida.vercel.app)
