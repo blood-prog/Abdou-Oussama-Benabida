@@ -36,7 +36,6 @@ export default function About() {
       <div className="max-w-6xl w-full flex flex-col md:flex-row gap-16 items-center md:items-start" ref={textRef}>
 
         <div className="flex-1 w-full">
-          <h1 className="sr-only">Abdou Oussama Benabida - Mathematics Researcher</h1>
           <h2 className="font-syne text-4xl md:text-7xl font-extrabold uppercase mb-12 border-b-4 border-ink pb-4">
             About Me
           </h2>

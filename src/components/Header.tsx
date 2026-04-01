@@ -9,11 +9,11 @@ export default function Header() {
   return (
     <>
       <header className="fixed top-0 left-0 w-full z-50 bg-[#FFF2D0] border-b-2 border-ink p-6 flex justify-between items-center text-ink">
-        <div className="font-syne font-bold uppercase tracking-tight text-xl md:text-2xl">
+        <h1 className="font-syne font-bold uppercase tracking-tight text-xl md:text-2xl">
           <a href="#about" className="flex items-center gap-3 hover:text-[#FFB2B2] transition-colors cursor-pointer">
-            <span>ABDOU OUSSAMA BENABIDA</span>
+            ABDOU OUSSAMA BENABIDA
           </a>
-        </div>
+        </h1>
 
         <button 
           onClick={toggleMenu} 
