@@ -1,73 +1,29 @@
-# React + TypeScript + Vite
+# Abdou Oussama Benabida | Academic Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Official repository for the personal academic website of **Abdou Oussama Benabida**, a PhD candidate in Mathematics at the Université du Québec à Montréal (UQAM).
 
-Currently, two official plugins are available:
+## 🔬 Research Focus
+Specializing in **Geometric Analysis** and **Calabi-Yau conifolds**. My research involves doing analysis on manifolds with corners and resolving singular spaces to study special Riemannian and Kähler metrics.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎓 Education & Affiliations
+- **PhD Researcher**: UQAM (Supervised by Prof. Frédéric Rochon)
+- **MSc**: Sorbonne Université
+- **BSc**: Université Claude Bernard Lyon 1 (UCBL)
 
-## React Compiler
+## 🌐 Project Features
+- **Soft Neo-Brutalist Design**: A modern, high-contrast aesthetic balanced with mathematical rigor.
+- **Dynamic Animations**: Smooth scroll-triggered interactions using GSAP and Lenis.
+- **SEO Optimized**: Fully technical SEO implementation for academic visibility.
+- **Responsive**: Optimised for both high-end desktop and mobile viewing.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- **Framework**: React 19 + TypeScript
+- **Bundler**: Vite
+- **Styling**: Tailwind CSS v4
+- **Animations**: GSAP (GreenSock)
+- **Scrolling**: Lenis Smooth Scroll
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📧 Contact
+- **Email**: [benabida.abdou_oussama@uqam.ca](mailto:benabida.abdou_oussama@uqam.ca)
+- **Secondary**: [benabida.oussama@gmail.com](mailto:benabida.oussama@gmail.com)
+- **Website**: [benabida.art](https://benabida.art)
