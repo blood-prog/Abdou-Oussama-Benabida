@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://benabida.art/sitemap.xml

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&family=Syne:wght@600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-warm: #FFFBF1;
+  --color-card: #FFF2D0;
+  --color-accent: #FFB2B2;
+  --color-ink: #1a1a1a;
+  --font-syne: "Syne", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+}
+@layer utilities {
+  .text-stroke {
+    -webkit-text-stroke: 2px #FFB2B2;
+    color: transparent;
+  }
+  .text-stroke-ink {
+    -webkit-text-stroke: 1px #1a1a1a;
+    color: transparent;
+  }
+}
+
+html, body {
+  /* Using coarse pointer media query allows mobile users to see normal interactions */
+  background-color: #FFFBF1;
+  color: #1a1a1a;
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+@media (pointer: fine) {
+  html, body, a, button, [role="button"], input, select, textarea {
+    cursor: none !important;
+  }
+}
+
+/* Hide default scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
