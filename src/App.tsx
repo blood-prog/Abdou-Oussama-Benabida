@@ -9,6 +9,8 @@ import Teaching from './components/Teaching';
 import Seminars from './components/Seminars';
 import Mathwin from './components/Mathwin';
 import Contact from './components/Contact';
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import './App.css';
 
 function App() {
@@ -43,6 +45,8 @@ function App() {
         <Mathwin />
       </main>
       <Contact />
+      <Analytics />
+      <SpeedInsights />
     </>
   );
 }
