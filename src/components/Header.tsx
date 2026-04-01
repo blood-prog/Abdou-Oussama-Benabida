@@ -10,8 +10,9 @@ export default function Header() {
     <>
       <header className="fixed top-0 left-0 w-full z-50 bg-[#FFF2D0] border-b-2 border-ink p-6 flex justify-between items-center text-ink">
         <div className="font-syne font-bold uppercase tracking-tight text-xl md:text-2xl">
-          <a href="#about" className="hover:text-[#FFB2B2] transition-colors cursor-pointer">
-            ABDOU OUSSAMA BENABIDA
+          <a href="#about" className="flex items-center gap-3 hover:text-[#FFB2B2] transition-colors cursor-pointer">
+            <img src="/logo.png" alt="Pi Logo" className="w-8 h-8 md:w-10 md:h-10 rounded-full border-2 border-ink object-cover" />
+            <span>ABDOU OUSSAMA BENABIDA</span>
           </a>
         </div>
 
