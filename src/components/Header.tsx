@@ -15,7 +15,11 @@ export default function Header() {
           </a>
         </div>
 
-        <button onClick={toggleMenu} className="relative z-[60] text-ink flex items-center md:hidden">
+        <button 
+          onClick={toggleMenu} 
+          className="relative z-[60] text-ink flex items-center md:hidden"
+          aria-label={isOpen ? "Close menu" : "Open menu"}
+        >
           {isOpen ? <X size={32} /> : <Menu size={32} />}
         </button>
 
@@ -30,7 +34,11 @@ export default function Header() {
 
       {/* Mobile Menu - Outside of mix-blend-difference header */}
       <div className={`fixed inset-0 bg-[#FFF2D0] z-[100] transition-transform duration-500 origin-top flex flex-col justify-center items-center gap-12 ${isOpen ? 'translate-y-0' : '-translate-y-full'} md:hidden text-ink`}>
-        <button onClick={toggleMenu} className="absolute top-6 right-6 text-ink">
+        <button 
+          onClick={toggleMenu} 
+          className="absolute top-6 right-6 text-ink"
+          aria-label="Close menu"
+        >
           <X size={32} />
         </button>
         <nav className="flex flex-col gap-8 font-syne uppercase text-4xl font-bold text-center">

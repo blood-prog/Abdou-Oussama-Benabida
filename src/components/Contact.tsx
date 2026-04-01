@@ -50,13 +50,13 @@ export default function Contact() {
 
         <div className="w-full flex flex-col lg:flex-row justify-start items-start lg:items-start gap-16 md:gap-24 font-inter text-sm font-semibold tracking-wider">
           <div className="flex flex-col gap-4">
-            <h4 className="font-syne uppercase text-[#FFB2B2]">Emails</h4>
+            <h3 className="font-syne uppercase text-[#FFB2B2]">Emails</h3>
             <a href="mailto:benabida.abdou_oussama@uqam.ca" className="hover:text-[#FFF2D0] transition-colors">benabida.abdou_oussama@uqam.ca</a>
             <a href="mailto:benabida.oussama@gmail.com" className="hover:text-[#FFF2D0] transition-colors">benabida.oussama@gmail.com</a>
           </div>
 
           <div className="flex flex-col gap-4 max-w-sm">
-            <h4 className="font-syne uppercase text-[#FFB2B2]">Address</h4>
+            <h3 className="font-syne uppercase text-[#FFB2B2]">Address</h3>
             <p className="opacity-80 leading-relaxed">
               Pavillon Président Kennedy, 201 avenue du Président Kennedy<br />
               Montréal, Québec, H2X 3Y7<br />
@@ -65,7 +65,7 @@ export default function Contact() {
           </div>
 
           <div className="flex flex-col gap-4">
-            <h4 className="font-syne uppercase text-[#FFB2B2]">Links</h4>
+            <h3 className="font-syne uppercase text-[#FFB2B2]">Links</h3>
             <div className="flex flex-col gap-2">
               <a href="https://drive.google.com/file/d/1s4wqN3L2oOZHYdf2f8dZL73ueFaId7M_/view" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFF2D0] transition-colors">Curriculum Vitae</a>
               <a href="https://mathwin.org/" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFF2D0] transition-colors">Mathwin Project</a>
