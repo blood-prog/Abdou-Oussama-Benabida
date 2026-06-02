@@ -27,6 +27,7 @@ export default function Header() {
         <nav className="hidden md:flex gap-8 font-syne uppercase tracking-wider text-sm font-semibold">
           <a href="#research" className="hover:line-through transition-all hover:italic">Research</a>
           <a href="#teaching" className="hover:line-through transition-all hover:italic">Teaching</a>
+          <a href="#seminars" className="hover:line-through transition-all hover:italic">Talks</a>
           <a href="#mathwin" className="hover:line-through transition-all hover:italic">Mathwin</a>
           <a href="#contact" className="hover:line-through transition-all hover:italic">Contact</a>
         </nav>
@@ -44,6 +45,7 @@ export default function Header() {
         <nav className="flex flex-col gap-8 font-syne uppercase text-4xl font-bold text-center">
           <a href="#research" onClick={toggleMenu}>Research</a>
           <a href="#teaching" onClick={toggleMenu}>Teaching</a>
+          <a href="#seminars" onClick={toggleMenu}>Talks</a>
           <a href="#mathwin" onClick={toggleMenu}>Mathwin</a>
           <a href="#contact" onClick={toggleMenu}>Contact</a>
         </nav>
