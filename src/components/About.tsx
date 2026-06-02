@@ -45,7 +45,7 @@ export default function About() {
           </p>
 
           <p className="font-inter text-xl md:text-2xl leading-relaxed mb-12">
-            The goals of my PhD are twofold: first, to study various analytic aspects of conical degenerations of Calabi–Yau manifolds; and second, to develop a uniform construction of the resolvent of the Hodge Laplacian for conical degenerations of Riemannian manifolds.
+            The goal of my PhD is to establish a full asymptotic expansion for Calabi–Yau metrics under certain conical degenerations.
           </p>
 
           <a
