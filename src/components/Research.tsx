@@ -55,7 +55,7 @@ export default function Research() {
         <div className="mb-16">
           <h3 className="font-syne text-3xl font-bold uppercase mb-4 text-[#FFB2B2] text-stroke-ink">My Research Interests</h3>
           <p className="font-inter text-xl leading-relaxed text-ink/90">
-            I am interested in doing analysis on manifolds with corners with additional structures. In general, manifolds with corners together with some adequate structures (e.g. Lie structures at infinity) can be used to compactify open manifolds or to resolve singular ones in a way that allows for a systematic approach to do analysis on such spaces. This approach can be used for various problems in geometric analysis, in particular, in spectral geometry, analytic torsion, index theorems, special Riemannian and Kähler metrics, the geometry of moduli spaces..etc.
+            I am interested in doing analysis on complex manifolds using the language of manifolds with corners. In general, manifolds with corners together with some adequate structures (e.g. Lie structures at infinity) can be used to compactify open manifolds or to resolve singular ones in a way that allows for a systematic approach to do analysis on such spaces. This approach can be used for various problems in geometric analysis. I am, particularly, interested in applications related to special metrics in complex geometry (complex Monge–Ampère, Hermitian Yang-Mills, the Strominger system ...etc)   
           </p>
         </div>
 
