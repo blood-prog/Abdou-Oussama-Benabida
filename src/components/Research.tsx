@@ -13,8 +13,8 @@ const publications = [
     status: "Publication",
     arxivLink: "https://arxiv.org/abs/2503.16702",
     pubLink: "https://link.springer.com/article/10.1007/s00220-026-05578-5"
-  }
-   {
+  },
+  {
     id: 2,
     title: "A Liouville theorem for some asymptotically conical Calabi-Yau manifolds",
     journal: "",
