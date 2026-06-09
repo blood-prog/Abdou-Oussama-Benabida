@@ -21,7 +21,6 @@ const publications = [
     year: "2026",
     status: "Preprint",
     arxivLink: "https://arxiv.org/abs/2606.04213",
-    pubLink: ""
   }
 ];
 
@@ -100,14 +99,16 @@ export default function Research() {
                 >
                   Read on arXiv ↗
                 </a>
-                <a
-                  href={pub.pubLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-syne font-bold uppercase border-b-2 border-ink pb-1 w-max hover:text-[#FFB2B2] hover:border-[#FFB2B2] transition-colors"
-                >
-                  Publication Link ↗
-                </a>
+                < {pub.pubLink && (
+    <a
+      href={pub.pubLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="font-syne font-bold uppercase border-b-2 border-ink pb-1 w-max hover:text-[#FFB2B2] hover:border-[#FFB2B2] transition-colors"
+    >
+      Publication Link ↗
+    </a>
+  )}
               </div>
             </div>
           ))}
