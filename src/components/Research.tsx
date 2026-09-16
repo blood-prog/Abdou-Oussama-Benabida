@@ -19,7 +19,7 @@ const publications = [
     title: "A Liouville theorem for some asymptotically conical Calabi-Yau manifolds",
     journal: "",
     year: "2026",
-    status: "Preprint",
+    status: "Preprint (Submitted)",
     arxivLink: "https://arxiv.org/abs/2606.04213",
   }
 ];
