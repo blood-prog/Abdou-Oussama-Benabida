@@ -43,7 +43,7 @@ export default function Contact() {
           ref={textRef}
           className="font-syne text-4xl md:text-[6rem] lg:text-[8rem] font-extrabold uppercase leading-[0.85] text-center mb-24 transition-colors hover:text-[#FFF2D0] cursor-none"
         >
-          <a href="mailto:benabida.abdou_oussama@uqam.ca">Contact</a>
+          <a href="mailto:oussama@math.ubc.ca">Contact</a>
         </h2>
 
         <div className="w-full h-[2px] bg-[#FFFBF1]/20 mb-12"></div>
@@ -51,7 +51,7 @@ export default function Contact() {
         <div className="w-full flex flex-col lg:flex-row justify-start items-start lg:items-start gap-16 md:gap-24 font-inter text-sm font-semibold tracking-wider">
           <div className="flex flex-col gap-4">
             <h3 className="font-syne uppercase text-[#FFB2B2]">Emails</h3>
-            <a href="mailto:benabida.abdou_oussama@uqam.ca" className="hover:text-[#FFF2D0] transition-colors">benabida.abdou_oussama@uqam.ca</a>
+            <a href="mailto:oussama@math.ubc.ca" className="hover:text-[#FFF2D0] transition-colors">oussama@math.ubc.ca</a>
             <a href="mailto:benabida.oussama@gmail.com" className="hover:text-[#FFF2D0] transition-colors">benabida.oussama@gmail.com</a>
           </div>
 
