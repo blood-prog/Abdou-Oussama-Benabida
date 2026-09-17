@@ -11,7 +11,7 @@ const instructorExperience = [
 ];
 
 const taExperience = [
-  { id: 4, course: "MATH100", term: " Fall 2026" }
+  { id: 4, course: "MATH100", term: " Fall 2026" },
   { id: 5, course: "Analyse 2", term: " Fall 2024, Fall 2025" },
   { id: 6, course: "Analyse complexe 1", term: "Winter 2025, Winter 2026" },
   { id: 7, course: "Géométries", term: "Fall 2022, Fall 2024" },
