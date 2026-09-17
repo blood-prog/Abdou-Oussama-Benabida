@@ -41,7 +41,7 @@ export default function About() {
           </h2>
 
           <p className="font-inter text-xl md:text-2xl leading-relaxed mb-8">
-            Hello! I am a postdoc in mathematics at <span className="font-bold">University of British Columbia (UBC)</span> under the mentorship of <a href="https://personal.math.ubc.ca/~spicard/" target="_blank" rel="noopener noreferrer" className="italic font-bold hover:text-[#FFB2B2] transition-colors underline decoration-2">Sebastien Picard</a>. I obtained my PhD at <span className="font-bold">Université du Québec à Montréal (UQAM)</span>, entitled "Resolutions and smoothings of Calabi-Yau conifolds", under the supervision of <a href="http://profmath.uqam.ca/~rochon/" target="_blank" rel="noopener noreferrer" className="italic font-bold hover:text-[#FFB2B2] transition-colors underline decoration-2">Frédéric Rochon</a> in August 2026. 
+            Hello! I am a postdoctoral fellow at <span className="font-bold">The University of British Columbia (UBC)</span> under the mentorship of <a href="https://personal.math.ubc.ca/~spicard/" target="_blank" rel="noopener noreferrer" className="italic font-bold hover:text-[#FFB2B2] transition-colors underline decoration-2">Sebastien Picard</a>. I received my PhD in August 2026 from <span className="font-bold">Université du Québec à Montréal (UQAM)</span> under the supervision of <a href="http://profmath.uqam.ca/~rochon/" target="_blank" rel="noopener noreferrer" className="italic font-bold hover:text-[#FFB2B2] transition-colors underline decoration-2">Frédéric Rochon</a>. 
           </p>
 
           <a
