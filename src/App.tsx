@@ -35,9 +35,9 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Abdou Oussama Benabida | Mathematics Researcher & PhD</title>
+        <title>Abdou Oussama Benabida | Mathematics Postdoctoral Fellow</title>
         <meta property="og:site_name" content="Abdou Oussama Benabida" />
-        <meta property="og:title" content="Abdou Oussama Benabida | Mathematics Researcher & PhD" />
+        <meta property="og:title" content="Abdou Oussama Benabida | Mathematics Postdoctoral Fellow" />
       </Helmet>
       <CustomCursor />
       <Header />
